@@ -1,6 +1,22 @@
 html,body{
    height: 100%;
 }
+#header{
+    display: flex;
+    height: 100px;
+    padding: 20px 50px 10px 45px;
+    align-items: flex-end;
+}
+.item{
+    margin-right: auto;
+    align-self: baseline;
+    text-decoration: none;
+    color: white;
+}
+#logo{
+    margin-right: auto;
+    align-self: center;
+}
 /* The hero image */
 .hero-image{
     /* Use "linear-gradient" to add a darken background 
@@ -36,4 +52,21 @@ html,body{
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+}
+#main{
+    display: flex;
+    align-items: center;
+    height: -300px;
+    /* display: -webkit-flex; */
+    /* -webkit-align-items: center; */
+   
+}
+#main .core-products{
+    border: 1px solid black;
+    margin: 20px;
+    -webkit-flex: 1;
+    flex: 1;
+    padding: 20px;
+    align-items: center;
+    
 }
